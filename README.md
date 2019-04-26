@@ -5,9 +5,9 @@ My Implementation of the Udacity Project Recommendation Engines as part of the N
 <!-- first line needs to stay here, otherwise the table is not rendered! -->
 |  |  | 
 | ------------- | ------------- |
-| **Description** | < Short description to get an impression why this project was performed. >|
+| **Description** | The goal of this project is to build an recommendation engine for articles for users in a community. Different Recommendation Engine Types are implemented. The results are represented in a web app. The different steps have been seperated, for more details see [Tasks](Tasks.md)|
 | **Anaconda environment** | < Which environment was used? > |
-| **Data Set** | < where does the data come from, How is the data structured? > |
+| **Data Set** | The data consists of two parts. One data set contains articles from a platfom with their title, description etc. The other data set provides information which user has interacted with which articles.|
 
 ## Getting Started With This Code
 < What is the first file to be executed? >
@@ -18,43 +18,21 @@ My Implementation of the Udacity Project Recommendation Engines as part of the N
 ## Folder Structure
 If a folder is not used, use strike the folder name by using two tildes before and after.
 ```
-├── .gitignore               <- Files that should be ignored by git. Add seperate .gitignore files in sub folders if needed
-|
-├── conda_env.yml            <- Conda environment definition for ensuring consistent setup across environments 
-|
+├── .gitignore 
+├── conda_env.yml 
 ├── LICENSE
-├── README.md                <- The top-level README for developers using this project.
-│
-├── data                     <- Storage location for used data. *Make a note into the folder, if the files are to big to be placed on github*
-│   └── raw                  <- The original, unmodified data files as they have been downloaded 
-│
-├── models                   <- generated, stored models - *Make a note into the folder, if the files are to big to be placed on github. How can they be generated*
-|
-├── notebooks                <- Notebooks for analysis and testing. *if they need to be executed in a specific order (1. Feature Extraction, 2. ML) name them according to it. Pattern: <step>-<description>.ipynb
-│
+├── README.md  
+├── data
+├── models 
+├── notebooks 
 ├── src                      <- Code for use in this project.
-│   └── examplepackage       <- Example python package - place shared code in such a package
-│       ├── __init__.py      <- Python package initialisation
-│       ├── examplemodule.py <- Example module with functions and naming / commenting best practices
-│       ├── features.py      <- Feature engineering functionality
-│       ├── io.py            <- IO functionality
-│       └── pipeline.py      <- Pipeline functionality
-│
-└── tests                    <- Test cases for Pytest(named after module)
-    ├── test_notebook.py     <- Example testing that Jupyter notebooks run without errors
-    ├── examplepackage       <- examplepackage tests
-        ├── examplemodule    <- examplemodule tests (1 file per method tested)
-        ├── features         <- features tests
-        ├── io               <- io tests
-        └── pipeline         <- pipeline tests
+└── ~~tests~~
 ```
 
 ## Testing with PyTest
-What unit tests have been implemented? Is there anything special to mention to execute the tests with **pytest**?
+No tests have been done.
 
 ## References
-* https://github.com/equinor/data-science-template/blob/master/README.md - Base of this template
-* https://github.com/ericmjl/conda-envs - how to create conda_env.yml files
-* https://drivendata.github.io/cookiecutter-data-science/ - Information about the folder structure
+* [Udacity Project Description](https://classroom.udacity.com/nanodegrees/nd025/parts/fda1a44f-51b3-4093-8ee3-9e9a23e3bf81/modules/6700571c-0392-4c93-9549-525bc4865541/lessons/ed510bc1-30c8-42a0-9849-46d44291916f/concepts/b9b0d2a9-af2b-44d3-9567-4aaf6535bf0a)
 
  
