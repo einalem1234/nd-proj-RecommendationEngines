@@ -6,7 +6,7 @@ My Implementation of the Udacity Project Recommendation Engines as part of the N
 |  |  | 
 | ------------- | ------------- |
 | **Description** | The goal of this project is to build an recommendation engine for articles for users in a community. Different Recommendation Engine Types are implemented. The results are represented in a web app. The different steps have been seperated, for more details see [Tasks](Tasks.md)|
-| **Anaconda environment** | < Which environment was used? > |
+| **Anaconda environment** | env_udacity |
 | **Data Set** | The data consists of two parts. One data set contains articles from a platfom with their title, description etc. The other data set provides information which user has interacted with which articles.|
 
 ## Getting Started With This Code
