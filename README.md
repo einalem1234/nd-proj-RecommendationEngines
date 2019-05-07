@@ -5,7 +5,7 @@ My Implementation of the Udacity Project Recommendation Engines as part of the N
 <!-- first line needs to stay here, otherwise the table is not rendered! -->
 |  |  | 
 | ------------- | ------------- |
-| **Description** | The goal of this project is to build an recommendation engine for articles for users in a community. Different Recommendation Engine Types are implemented. The results are represented in a web app. The different steps have been seperated, for more details see [Tasks](Tasks.md)|
+| **Description** | The goal of this project is to build an recommendation engine for articles for users in a community. Different Recommendation Engine Types are implemented. The different steps have been seperated for implementation, for more details see [Tasks](Tasks.md). For the submission at udacity, all steps have been recombined to one *submission*-file.|
 | **Anaconda environment** | env_udacity |
 | **Data Set** | The data consists of two parts. One data set contains articles from a platfom with their title, description etc. The other data set provides information which user has interacted with which articles.|
 
@@ -13,7 +13,7 @@ My Implementation of the Udacity Project Recommendation Engines as part of the N
 < What is the first file to be executed? >
 
 ## Setup instructions
-< What needs to be done/installed to get this project running? >
+All tasks of this project have been performed in different jupyter notebooks. Each notebook can be run by itself, as it contains the needed code of previous parts.
 
 ## Folder Structure
 If a folder is not used, use strike the folder name by using two tildes before and after.
