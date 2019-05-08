@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>submission_2019_05_07</title>
+<title>submission</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -15414,8 +15414,16 @@ Articles which are in test set but not in train set:  0
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Your response here.</strong></p>
-<p>There are still 662 users for whom no user-specific predictions can be made. In total, there are 5149 distinct users in the  data, so for 12% no predicions can be made.</p>
-<p>With SVD you get information which articles are alike and based on that recommendations. One problem with the latent features of SVDs that they cannot clearly assigned to a topic. This means that the above results cannot be used to generate topic-based recommendations.</p>
+<p><em>Results of the SVD implementation:</em></p>
+<ul>
+<li>As it can be seen in the figure above, the accuracy of the recommendation engine is high, even for the test cases it is above 96%. But unfortunately, there are still 662 users for whom no user-specific predictions can be made. Only for 88% of 5149 distinct users in the data user-specific predictions can be made.</li>
+<li>With SVD you get information which articles are alike and based on that recommendations. One problem with the latent features of SVDs is that they cannot clearly be assigned to a topic. This means that the above results cannot be used to generate topic-based recommendations.</li>
+</ul>
+<p><em>How can be tested how well the recommendation engine works in practice?</em></p>
+<p>For a good recommendation system, the different recommendation approaches should be combined, so that every user gets a recommendation.
+Offline testing was used above to determine how good the predictions are currently. But these are only mathematical approaches. Real users can evaluate the systems differently. A user would also like to be positively surprised by the proposed articles, which is not important for the accuracy calculation above.</p>
+<p>In order to determine how well the predictions are accepted by the user, A/B tests should be carried out. A quasi-experiment would be best because not all parameters can be controlled. If, for example, an accident happens with a semi-autonomous vehicle, the users will want to engage more with the topic. This is especially true for users who are otherwise interested in other topics. 
+The experiment would run as a Between-Subject experiment, since predictions should change if the user reads more documents and probably does not read the same article twice. Another idea could be to let the user give feedback on the recommendations.</p>
 
 </div>
 </div>
